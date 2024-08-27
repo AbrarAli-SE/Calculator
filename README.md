@@ -1,0 +1,1 @@
+A fully functional calculator app developed in Java for Android.<br> This calculator supports basic arithmetic operations, <br>trigonometric functions,<br> logarithms, <br>percentages, <br>and complex number calculations.
