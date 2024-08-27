@@ -1,0 +1,54 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Calculator" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/black</item>
+        <item name="colorSecondaryVariant">@color/black</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="CalculatorButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_margin">4sp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:inset">0dp</item>
+        <item name="android:backgroundTint">@color/buttons_background</item>
+        <item name="android:textColor">@color/primary_text</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+    </style>
+
+
+    <style name="AllClearButton" parent="CalculatorButton">
+
+        <item name="android:backgroundTint">@color/action_buttons_background</item>
+        <item name="android:textColor">@color/all_clear_text</item>
+    </style>
+
+    <style name="ActionButton" parent="CalculatorButton">
+        <item name="android:backgroundTint">@color/action_buttons_background</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="BackspaceButton" parent="CalculatorButton">
+        <item name="iconSize">33dp</item>
+        <item name="android:backgroundTint">@color/action_buttons_background</item>
+        <item name="iconStartPadding">40sp</item>
+        <item name="iconTint">@color/black</item>
+    </style>
+
+    <style name="EqualButton" parent="CalculatorButton">
+        <item name="android:backgroundTint">@color/equal_button_background</item>
+        <item name="android:textColor">@color/equal_button_text</item>
+    </style>
+</resources>

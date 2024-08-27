@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="display_background">#E2E9EE</color>
+    <color name="primary_text">#323233</color>
+    <color name="primary_text_develpor">#7E323233</color>
+    <color name="secondary_text">#74797C</color>
+    <color name="action_text">#36454F</color>
+    <color name="all_clear_text">#FF0909</color>
+    <color name="equal_button_background">#0D84ED</color>
+    <color name="equal_button_text">#FFFEFE</color>
+    <color name="buttons_background">#F5F6F8</color>
+    <color name="action_buttons_background">#3B1E486A</color>
+    <color name="divider">#E2E9EE</color>
+    <color name="status_bar">#C3C7CB</color>
+</resources>
